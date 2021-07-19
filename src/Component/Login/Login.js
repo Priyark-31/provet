@@ -10,12 +10,13 @@ import LockIcon from '@material-ui/icons/Lock';
 
 
 const Login=({handleChange}) => {
-	const paperStyle = {padding: '30px 35px', height: '492px', width: '500px', margin: '0 auto' };
+	const paperStyle = {padding: '30px 35px', height: '595px', width: '500px', margin: '0 auto' };
 	const nameStyle = { margin: '40px 10px', width: '300px' };
 	const passStyle = { margin: '0 10px', width: '300px' };
 	const buttonStyle = { margin: '50px auto' };
 
 	return (
+		<div className="sample">
 		<Grid align="center">
 			<Paper style={paperStyle}>
 				<h1>LOGIN</h1>
@@ -36,6 +37,7 @@ const Login=({handleChange}) => {
 				</Typography>
 			</Paper>
 		</Grid>
+		</div>
 	);
 }
 

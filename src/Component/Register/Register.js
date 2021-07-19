@@ -8,7 +8,7 @@ import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 
 const Register = () => {
 
-    const paperStyle = { padding: '30px 35px', width: '500px', margin: "auto auto", boxShadow:"1px" }
+    const paperStyle = { padding: '40px 35px', width: '500px', margin: "auto auto", boxShadow:"1px" }
     const headerStyle = { margin: 0 }
     const namestyles = { margin: '40px 35px', width: '400px'}
     const emailstyles={ width:'400px', margin: '-27px 35px'}
