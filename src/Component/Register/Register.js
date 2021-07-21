@@ -30,7 +30,7 @@ const Register = () => {
    
     return (
         <div className="sample">
-            <Grid>
+            <Grid >
                 <Paper style={paperStyle}>
                     <Grid align='center'>
 
