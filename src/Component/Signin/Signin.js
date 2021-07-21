@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Login from '../Login/Login';
 import Register from '../Register/Register';
-
+import "./Signin.css";
 const Signin =() =>{
     const[value,setValue]=useState(0)
     const handleChange = (event, newValue) => {
